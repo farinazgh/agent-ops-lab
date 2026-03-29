@@ -52,7 +52,20 @@ result = Runner.run_sync(
 )
 
 print(result.final_output.model_dump_json(indent=2))
-# {
+
+# model:
+# Understand task
+# Plan response
+# Map response → schema
+# Ensure:
+# correct number of items
+# correct field names
+# valid JSON
+# Avoid extra text
+
+# Plain text version → ~98 tokens
+# Structured version → ~249 tokens
+# # {
 #   "tasks": [
 #     {
 #       "id": 1,
