@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Define AI agents conceptually"
+    },
+    {
+      "id": 2,
+      "description": "Explore AI agent architectures"
+    },
+    {
+      "id": 3,
+      "description": "Review common applications"
+    },
+    {
+      "id": 4,
+      "description": "Compare learning methods"
+    },
+    {
+      "id": 5,
+      "description": "Analyze current research trends"
+    }
+  ]
+}
